@@ -15,7 +15,7 @@ const ChangeTheme = () => {
         preload='auto'
         className={isDark ? 'background-video-dark' : 'background-video'}
         key={isDark ? 'dark' : 'light'}
-      > 
+      >
         <source
           src={isDark ? '/videos/night-clouds.mp4' : '/videos/clouds.mp4'}
           type='video/mp4'
